@@ -5,7 +5,7 @@ Simple script to export rebranding assets to spesicic sizes.
 - ImageMagick
 
 ### Usaga
-Make sure your assets in ready in assets directory. See directory tree to make sure your assets is saved properly.
+Make sure your assets is already in assets directory. See directory tree to make sure your assets is saved properly.
 
 ```bash
 assets
