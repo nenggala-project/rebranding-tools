@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   sodipodi:docname="logo_nenggala.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 270.93329 169.33333"
+   height="169.33333mm"
+   width="270.93329mm"
+   inkscape:export-filename="/home/sherlock/Test Area/aset-generator/assets/logo_nenggala.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     inkscape:snap-page="true"
+     inkscape:window-maximized="1"
+     inkscape:window-y="297"
+     inkscape:window-x="1080"
+     inkscape:window-height="1043"
+     inkscape:window-width="1920"
+     inkscape:lockguides="false"
+     inkscape:snap-grids="false"
+     inkscape:snap-to-guides="false"
+     inkscape:snap-others="false"
+     inkscape:object-nodes="false"
+     inkscape:snap-nodes="true"
+     inkscape:snap-global="true"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="g42775-9"
+     inkscape:document-units="mm"
+     inkscape:cy="275.60784"
+     inkscape:cx="533.69147"
+     inkscape:zoom="0.94155523"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#acacac"
+     id="base"
+     inkscape:pagecheckerboard="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(6.615634,-112.40429)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       id="g19075"
+       transform="translate(0,-251.44569)">
+      <rect
+         style="opacity:0.376272;fill:none;fill-opacity:1;stroke-width:0.264582;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000"
+         id="rect11816"
+         width="270.93329"
+         height="169.33333"
+         x="-6.615634"
+         y="363.84998" />
+      <g
+         id="g42775-9"
+         transform="matrix(0.46014393,0,0,0.46014393,174.18951,-102.99726)"
+         style="fill:#ffffff;stroke-width:2.17324"
+         inkscape:export-filename="/home/sherlock/Test Area/aset-generator/assets/logo_nenggala.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">
+        <g
+           id="g19735"
+           transform="matrix(0.85472924,0,0,0.85472924,-14.313692,174.11693)"
+           style="stroke-width:2.54261">
+          <path
+             id="path42765-2"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.0896976"
+             d="m -206.8416,1165.1684 c -0.31688,0.01 -0.63725,0.1296 -0.89956,0.3919 l -30.73112,30.7323 c -1.25649,1.2565 -1.25671,3.2949 0,4.5517 l 17.55438,17.5544 c 0.8396,0.8396 2.27685,0.2447 2.27643,-0.9423 l -0.001,-25.747 c 0,-1.1879 -1.43592,-1.7816 -2.2753,-0.9422 l -4.40572,4.4046 c -1.45348,1.4535 -2.27551,3.4381 -2.2753,5.4939 v 3.395 c -4.3e-4,0.5942 -0.71848,0.8908 -1.13877,0.4717 l -1.944,-1.944 c -0.72621,-0.7275 -1.13786,-1.7199 -1.13765,-2.7481 v -2.5448 c -2.1e-4,-1.0278 0.41059,-2.0199 1.13765,-2.747 l 15.12186,-15.1208 c 0.41925,-0.4197 1.13787,-0.1223 1.13765,0.4717 v 41.7763 c -2e-5,2.0565 0.82187,4.0405 2.27642,5.4951 l 4.4046,4.4046 c 0.83959,0.8396 2.27599,0.2453 2.27642,-0.9422 v -23.6773 a 8.6589478,8.6589478 0 0 1 -6.52491,-8.3869 8.6589478,8.6589478 0 0 1 6.52379,-8.3869 v -23.6784 c 0,-0.8164 -0.67861,-1.3527 -1.37574,-1.3353 z m 7.02131,0 c -0.69699,-0.017 -1.37589,0.5191 -1.37574,1.3353 v 23.6739 a 8.6589478,8.6589478 0 0 1 6.52379,8.3914 8.6589478,8.6589478 0 0 1 -6.52379,8.3869 v 23.6773 c -2.1e-4,1.1873 1.43613,1.7818 2.2753,0.9422 l 30.73112,-30.7311 c 1.25692,-1.2565 1.25735,-3.2944 0,-4.5517 l -17.55438,-17.5544 c -0.8396,-0.8401 -2.27573,-0.2453 -2.2753,0.9422 v 25.7471 c 0,1.1879 1.43662,1.7827 2.27642,0.9433 l 4.4046,-4.4057 c 1.45348,-1.4543 2.27642,-3.4376 2.27642,-5.494 v -3.3949 c -2.1e-4,-0.5939 0.71775,-0.8916 1.13765,-0.4717 l 1.944,1.944 c 0.72664,0.7271 1.13722,1.7185 1.13765,2.747 v 2.5459 c 4.3e-4,1.028 -0.41107,2.0197 -1.13878,2.747 l -15.12073,15.1207 c -0.41947,0.4199 -1.13765,0.1228 -1.13765,-0.4705 l 0.001,-41.7775 c -4.4e-4,-2.056 -0.82209,-4.0406 -2.27643,-5.495 l -4.40572,-4.4046 c -0.26231,-0.2625 -0.58275,-0.3852 -0.89956,-0.3931 z m -3.51065,29.2824 a 4.1175447,4.1175447 0 0 0 -4.11711,4.1182 4.1175447,4.1175447 0 0 0 4.11711,4.1171 4.1175447,4.1175447 0 0 0 4.1171,-4.1171 4.1175447,4.1175447 0 0 0 -4.1171,-4.1182 z" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:36.7978px;line-height:1.25;font-family:Saira;-inkscape-font-specification:'Saira Bold';word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke-width:0.672729"
+             x="-152.01329"
+             y="1211.2267"
+             id="text42773-6"><tspan
+               sodipodi:role="line"
+               id="tspan42771-0"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Saira;-inkscape-font-specification:'Saira Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.672729"
+               x="-152.01329"
+               y="1211.2267">NENGGALA</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
