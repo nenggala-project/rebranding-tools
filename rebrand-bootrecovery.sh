@@ -44,8 +44,17 @@ mkdir -p res-mdpi/images \
 cd ..
 
 # set some fuctions
+cv_ldpi() {     
+    convert -resize 18.75% assets/"$2" assets-"$1"/res-mdpi/images/"$2"
+    if [[ -f assets-"$1"/res-mdpi/images"$2" ]]; then
+        echo "$2 exported to mdpi"
+    else
+        echo "failed to export $2"
+    fi
+}
+
 cv_mdpi() {     
-    convert -geometry 256x160 assets/"$2" assets-"$1"/res-mdpi/images/"$2"
+    convert -resize 25% assets/"$2" assets-"$1"/res-mdpi/images/"$2"
     if [[ -f assets-"$1"/res-mdpi/images"$2" ]]; then
         echo "$2 exported to mdpi"
     else
@@ -54,7 +63,7 @@ cv_mdpi() {
 }
 
 cv_hdpi() {     
-    convert -geometry 384x240 assets/"$2" assets-$1/res-hdpi/images/"$2"
+    convert -resize 37.5% assets/"$2" assets-$1/res-hdpi/images/"$2"
     if [[ -f assets-"$1"/res-hdpi/images"$2" ]]; then
         echo "$2 exported to hdpi"
     else
@@ -63,7 +72,7 @@ cv_hdpi() {
 }
 
 cv_xhdpi() {     
-    convert -geometry 512x320 assets/"$2" assets-"$1"/res-xhdpi/images/"$2"
+    convert -resize 50% assets/"$2" assets-"$1"/res-xhdpi/images/"$2"
     if [[ -f assets-"$1"/res-xhdpi/images"$2" ]]; then
         echo "$2 exported to xhdpi"
     else
@@ -72,7 +81,7 @@ cv_xhdpi() {
 }
 
 cv_xxhdpi() {     
-    convert -geometry 768x480 assets/"$2" assets-"$1"/res-xxhdpi/images/"$2"
+    convert -resize 75% assets/"$2" assets-"$1"/res-xxhdpi/images/"$2"
     if [[ -f assets-"$1"/res-xxhdpi/images"$2" ]]; then
         echo "$2 exported to xxhdpi"
     else
@@ -81,7 +90,7 @@ cv_xxhdpi() {
 }
 
 cv_xxxhdpi() {     
-    convert -geometry 1024x640 assets/"$2" assets-"$1"/res-xxxhdpi/images/"$2"
+    convert -resize 100% assets/"$2" assets-"$1"/res-xxxhdpi/images/"$2"
     if [[ -f assets-"$1"/res-xxxhdpi/images"$2" ]]; then
         echo "$2 exported to xxxhdpi"
     else
@@ -152,31 +161,31 @@ echo -e "Processing loop00000.png-loop00029.png"
     # res-mdpi 200x200
     for i in *.png; 
     do 
-        convert -geometry 200x200 $i "../../assets-$1/res-mdpi/images/${i%.*}.png";
+        convert -resize 25% $i "../../assets-$1/res-mdpi/images/${i%.*}.png";
         if [[ -f ../../assets-$1/res-mdpi/images/${i%.*}.png ]]; then
             echo -e "Processing $i to mdpi"
         else 
             echo -e "Failed to process $1"
         fi
-        convert -geometry 400x400 $i "../../assets-$1/res-hdpi/images/${i%.*}.png"; 
+        convert -resize 37.5% $i "../../assets-$1/res-hdpi/images/${i%.*}.png"; 
         if [[ -f ../../assets-$1/res-hdpi/images/${i%.*}.png ]]; then
             echo -e "Processing $i to hdpi"
         else 
             echo -e "Failed to process $1"
         fi
-        convert -geometry 600x600 $i "../../assets-$1/res-xhdpi/images/${i%.*}.png"; 
+        convert -resize 50% $i "../../assets-$1/res-xhdpi/images/${i%.*}.png"; 
         if [[ -f ../../assets-$1/res-xhdpi/images/${i%.*}.png ]]; then
             echo -e "Processing $i to xhdpi"
         else 
             echo -e "Failed to process $1"
         fi
-        convert -geometry 800x800 $i "../../assets-$1/res-xxhdpi/images/${i%.*}.png"; 
+        convert -resize 75% $i "../../assets-$1/res-xxhdpi/images/${i%.*}.png"; 
         if [[ -f ../../assets-$1/res-xxhdpi/images/${i%.*}.png ]]; then
             echo -e "Processing $i to xxhdpi"
         else 
             echo -e "Failed to process $1"
         fi
-        convert -geometry 200x200 $i "../../assets-$1/res-xxxhdpi/images/${i%.*}.png"; 
+        convert -resize 100% $i "../../assets-$1/res-xxxhdpi/images/${i%.*}.png"; 
         if [[ -f ../../assets-$1/res-xxxhdpi/images/${i%.*}.png ]]; then
             echo -e "Processing $i to xxxhdpi \n"
         else 
